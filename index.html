@@ -1,49 +1,45 @@
 <!doctype html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width , initial-scale=1">
-  <!-- 
-   增加这句后，可以看到浏览器的DevTools面板的模拟移动设备状态的变化
-  -->
-<style>
-  header{
-    border: 3px solid green;
-    height:200px;
-  }
-  main{
-    border: 3px solid green;
-    height: 500px;
-  }
-  footer{
-    border: 3px solid green;
-    height: 100px;
-  }
-  </style>
-  <title>Welcome to myCTApp</title>
- </head> 
- <body>
-  <header>
-	<p id="lessonName" >
-     《计算思维和语言学习》
-    </p> 
-  
-  </header>
 
-   <main>
-    <div id="logoFace">
-	  <p id="teaching">
-	   ‘读好书、练思维、勤编程’ @masterLijh 计算思维系列课程
-	  </p>
-    </div>
-   </main>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1 , user-scalable=no">
+    <title>最终页面</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
 
-  <footer> 
-   	<p id="footerInfo">
-	CopyRight from 李健宏 江西科技师范大学 2022--2025
-	</p>
-  </footer> 
-  
- </script>
- </body>
+<body>
+    <header>
+        <p id="head">
+            作品展示
+        </p>
+    </header>
+    <nav>
+        <button id="prevImage">向前</button>
+        <button id="randomImage">随机</button>
+        <button id="nextImage">向后</button>
+    </nav>
+
+    <main id="main">
+        <div id="Content">
+            内容展示区
+        </div>
+    </main>
+
+    <footer>
+        &copy 陈龙 江西科技师范大学 2024--2025
+    </footer>
+    <div id="aid">
+        <p id="userResponseArea">用户键盘响应区</p>
+        <div id="keyboard">
+            <p id="displaytxt">
+                &nbsp;
+            </p>
+        </div>
+        <div id="displayCode">
+            &nbsp;
+        </div>
+        <script src="myjs.js"></script>
+</body>
+
 </html>
